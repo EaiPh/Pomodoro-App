@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Tiro+Gurmukhi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&família=Patrick+Mão&family=Tiro+Gurmukhi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Oswald:wght@500&family=Patrick+Hand&family=Tiro+Gurmukhi&display=swap');
+
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   height: 100vh;
+   color: white;
+   text-align: center;
+   background-color: #1e2245;
+}
+
+h1 {
+   margin: 30px;
+}
+
+.velocity {
+   width: 400px;
+   height: 50px;
+   margin: auto;
+   color: #82839a;
+   border-radius: 25px;
+   background-color: #181b2e;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+#tPomodoro:hover {
+   color: black;
+   padding: 10px;
+   border-radius: 50px;
+   background-color: #ff7d7d;
+}
+#sBreak:hover {
+   color: black;
+   padding: 10px;
+   border-radius: 50px;
+   background-color: #ff7d7d;
+}
+#lBreak:hover {
+   color: black;
+   padding: 10px;
+   border-radius: 50px;
+   background-color: #ff7d7d;
+}
+
+.container {
+   width: 350px;
+   height: 350px;
+   margin: 30px auto;
+   box-shadow: #000321 0px 0px 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+}
+
+.time {
+   width: 300px;
+   height: 300px;
+   padding: 70px 0 30px 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   border: 5px solid #ff7d7d;
+   border-radius: 50%;
+}
+#clock {
+   font: 60pt arial;
+   font-weight: 700;
+}
+
+ion-icon {
+   width: 20px;
+   height: 20px;
+   color: silver;
+   margin: 60px;
+}
+
+.settings {
+   width: 40%;
+   height: 460px;
+   color: black;
+   font-weight: 700;
+   padding: 30px 40px;
+   margin: auto;
+   border-radius: 20px 20px 20px 20px;
+   position: absolute;
+   top: 16.5%;
+   left: 30%;
+   background-color: white;
+   visibility: hidden;
+   transition: .3s;
+}
+.settings p {
+   letter-spacing: 4px;
+   margin-top: 20px;
+   text-align: start;
+}
+.titulo {
+   height: 50px;
+   padding-bottom: 30px;
+   color: black;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font: 20pt arial;
+   font-weight: 700;
+}
+
+.titulo ion-icon {
+   width: 20px;
+   height: 20px;
+   margin: 35px 0 20px 0;
+   border: none;
+   border-radius: 50%;
+}
+
+.settingTime {
+   height: 100px;
+   margin-top: 20px;
+   display: flex;
+   justify-content: space-between;
+   
+}
+
+.settingTime label {
+   margin-right: 50px;
+   color: grey;
+   font: 10pt arial;
+}
+
+.settingTime input {
+   width: 120px;
+   height: 40px;
+   margin-top: 5px;
+   padding-left: 15px;
+   border: none;
+   outline: none;
+   border-radius: 5px 5px 5px 5px;
+   background-color: #e0e0ee;
+}
+
+.typeFont {
+   height: 90px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.typeFont p {
+   letter-spacing: 4px;
+}
+.fontOpitions {
+   width: 150px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.fontOpitions div {
+   width: 40px;
+   height: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+   background-color: #e0e0ee;
+}
+
+.themeColor {
+   letter-spacing: 4px;
+   height: 90px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.colorOpition {
+   width: 150px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.colorOpition div {
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+}
+#red {
+   background-color: #ff7d7d;
+}
+#cyan {
+   background-color: cyan;
+}
+#purple {
+   background-color: #aa62ff;
+}
+
+#red:hover , #cyan:hover , #purple:hover {
+   border: 2px solid #b6b6b6;
+}
+
+button {
+   width: 150px;
+   height: 50px;
+   color: white;
+   background-color: #ff8080;
+   border: 0;
+   border-radius: 25px;
+   position: relative;
+   top: 3px;
+}
+
+hr {
+   background-color: silver;
+   border: 0.5px solid silver;
+}
